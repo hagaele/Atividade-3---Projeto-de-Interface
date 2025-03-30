@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="StyleSheet" type="text/css" href="../style.css"
+</head>
+<body>
+    
+    <h2>Formulário</h2>
+    <form action="" method="post">
+       <p>Nome: <input type="text" name="Nome" placeholder="Escreva seu nome" size="60"/></p> 
+       <p>Telefone:<input type="tel" placeholder="(00) 00000-0000" maxlength="11"/></p> 
+       <p>Data de Nascimento:<input type="date"/></p> 
+       <p>Idade: <input type="number"/></p>
+       <p>Endereço: <input type="text"/></p>
+
+       <p> Voce torce para algum time?
+        <br />
+        <br />
+        <input type="radio" name="time" value="Sim"/> Sim <input type="radio" name="time" value="Não"/> Não </p>
+
+       <p> Escolha um Time de Futebol:
+        <br />
+        <br />
+        <input type="radio" name="time" value="Brasil"/> Brasil
+        <br />
+        <input type="radio" name="time" value="Argentina"/> Argentina
+        <br />
+        <input type="radio" name="time" value="Peru"/> Peru
+       </p>
+   
+       <p> Qual região voce mora?
+        <select>
+            <option></option>
+            <option value="Norte">Norte</option>
+            <option value="Nordeste">Nordeste</option>
+            <option value="Centro">Centro Oeste</option>
+            <option value="Sudeste">Sudeste</option>
+            <option value="Sul">Sul</option>
+        </select>
+       </p>
+       <p> Voce mora com alguem?
+        <br />
+        <br />
+        <input type="radio" name="time" value="Sim"/> Sim <input type="radio" name="time" value="Não"/> Não </p>
+        <p> Voce trabalha?
+            <br />
+            <br />
+            <input type="radio" name="time" value="Sim"/> Sim <input type="radio" name="time" value="Não"/> Não </p>
+            <p>Se sim, com o que? <input type="text"/></p>
+    </form>
+    <br />
+
+    <p>Comentários:
+    <br/>
+    <textarea rows="3" cols="50">
+    </textarea>
+    <br/>
+    <br/>
+</p>
+    <form>
+        <fieldset>
+            <legend>Escolha seu Usuario e Senha</legend>
+            <label>Email: <input type="email"/></label>
+            <br />
+            <br />
+        <label>Senha: <input type="password" maxlength="8" placeholder="Senha de até 8 caracteres" /></label>
+        <br />
+        <br />
+        <label>Confirme a Senha: <input type="password" maxlength="8" placeholder="Repita a senha" /></label>
+        </fieldset>
+        <br/>
+        <h3>
+            <input type="checkbox" name="termos"/>
+            Você aceita os termos?
+        </h3>
+           <br/>
+        <input type="reset" name="reset"/>
+       <input type="submit" name="submit"/>
+    </form>
+
+    
+</body>
+</html>

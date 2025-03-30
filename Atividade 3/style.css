@@ -1,0 +1,19 @@
+/*forma de se comentar no css*/
+body {
+    background-color: rgb(252, 255, 208);
+}
+
+#bodyindex {background-color: rgb(94, 41, 5);
+            margin: 30px auto;
+            border: red solid 4px;
+            padding: 50px;
+}
+
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
